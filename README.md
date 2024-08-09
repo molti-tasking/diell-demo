@@ -61,3 +61,9 @@ Note: Supabase has to be started already. Also for the testing you have to reset
 5. Copy & paste the dumped data in the sql editor on cloud-supabase and check if it works
 
 Typical Error: The following SQL might be needed after resetting the DB `insert into auth.schema_migrations values ('20221208132122');`.
+
+# Potential big topics
+
+1. Impression tracking: We want to collect impressions for the visits of products. So that an organization can view how often the products have been viewed.
+2. Job Board: Each organization can also post jobs and people can apply for those jobs.
+3. Subscription for organizations: Integrate Stripe to collect payments for organizations, because organizations have to pay to use the platform.
