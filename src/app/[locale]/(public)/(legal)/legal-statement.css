@@ -1,0 +1,34 @@
+.legal-statement {
+  @apply p-4 text-gray-700 leading-relaxed;
+}
+
+.legal-statement h2 {
+  @apply text-5xl font-bold mb-4;
+}
+
+.legal-statement h4 {
+  @apply text-3xl font-semibold mb-3;
+}
+
+.legal-statement h6 {
+  @apply text-2xl font-medium mb-2;
+}
+
+.legal-statement p {
+  @apply mb-4;
+}
+
+.legal-statement ul {
+  @apply list-disc list-inside mb-4;
+}
+.legal-statement li {
+  @apply mb-2;
+}
+
+.legal-statement ol {
+  @apply list-decimal list-inside mb-4;
+}
+
+.legal-statement a {
+  @apply text-blue-500 hover:underline;
+}
